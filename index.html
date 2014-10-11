@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Flickr...flick</title>
+        <meta name="generator" content="Bootply" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+                <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" rel="home" href="#">Flickr! flick...</a>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <div class="col-sm-4 col-md-4 pull-right">
+                    <div class="navbar-text">Word goes here:</div>
+                    <div class="navbar-form" >
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" name="srch-term" id="searchTextBox">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" id="startSearch"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container">
+
+            <div class="text-center">
+                <h1>What says flickr?</h1>
+                <p class="lead">Wanna play a game? Guess the first picture flickr thinks of when you enter any word...</p>
+                <div id="images"></div>
+            </div>
+
+        </div><!-- /.container -->
+        <!-- script references -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
